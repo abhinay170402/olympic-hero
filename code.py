@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 path
 
 #Code starts here
+#reading the dataset
 data=pd.read_csv(path)
 data.rename(columns = {"Total": "Total_Medals"}, inplace = True) 
 data.head(10)
